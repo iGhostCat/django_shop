@@ -5,5 +5,5 @@ app_name = 'catalog'
 
 urlpatterns = [
     path('', home, name='home'),
-    path('contact/', contacts, name='contact'),
+    path('contacts/', contacts, name='contacts'),
 ]
